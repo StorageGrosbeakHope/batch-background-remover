@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Model weights (downloaded on demand, never committed)
+models/*.onnx
+models/*.pth
+models/*.bin
+!models/.gitkeep
+
+# Batch run artifacts
+output/
+*.bbr-cache/
+*.bbr-log.jsonl
+
+# Editor / OS
+.idea/
+.vscode/
+*.swp
+Thumbs.db
+desktop.ini
