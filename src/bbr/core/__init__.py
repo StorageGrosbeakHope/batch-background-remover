@@ -1,0 +1,1 @@
+"""Core layer: frame model, contracts, pipeline, scheduler."""
